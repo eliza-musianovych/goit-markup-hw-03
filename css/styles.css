@@ -2,7 +2,12 @@ body {font-family: "Roboto", sans-serif; line-height: 1.5; letter-spacing: 0.02e
 h1 {font-weight: 700; font-size: 56px; line-height: 1.07; color: #FFFFFF; letter-spacing: 0.02em; }
 h2 {font-weight: 700; font-size: 36px; color: #2E2F42; line-height: 1.2; }
 h3 {font-weight: 500; font-size: 20px; color: #2E2F42; line-height: 1.2; letter-spacing: 0.02em; }
+img {display:block; }
+h1, h2, h3, h4, h5, h6, p {margin: 0; }
+ul, ol {margin: 0; padding-left: 0; }
 /*Частина Header*/
+.container {display: inline-flex; gap: 669px; justify-content:space-between; padding: 24px 156px; margin: 0; }
+.navigation {display: inline; padding-right: 76px; } 
 .logo {font-family: "Raleway", sans-serif; line-height: 1.17; letter-spacing: 0.03em; font-size: 18px; font-weight: 700; text-decoration: none; color: #4D5AE5;; text-transform: uppercase; }
 .snap-logo-header {color: #2e2f42 }
 li {list-style-type: none; }
