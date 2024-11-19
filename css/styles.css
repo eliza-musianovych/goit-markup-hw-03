@@ -6,12 +6,14 @@ img {display:block; }
 h1, h2, h3, h4, h5, h6, p {margin: 0; }
 ul, ol {margin: 0; padding-left: 0; }
 /*Частина Header*/
-.container.header-container {display: flex; gap: 332px; width: 1158px; padding: 0 15px 0 15px; border-bottom: 1px solid #e7e9fc; }
+.header {border-bottom: 1px solid #e7e9fc; }
+.container {width: 1158px; padding: 0 15px; margin: 0 auto; }
+.container.header-container {display: flex; gap: 332px; }
 .navigation {display: flex; align-items: center; gap:40px; padding: 24px 0; } 
 .logo {font-family: "Raleway", sans-serif; line-height: 1.17; letter-spacing: 0.03em; font-size: 18px; font-weight: 700; text-decoration: none; color: #4D5AE5;; text-transform: uppercase;  padding-left: 156px; padding-top: 24px; padding-bottom: 24px; margin-right: 76px; }
 .snap-logo-header {color: #2e2f42 }
 li {list-style-type: none; }
-.navigation-link {letter-spacing: 0.02em; line-height: 1.5; font-weight: 500; text-decoration: none; color: #2E2F42; }
+.navigation-link {letter-spacing: 0.02em; line-height: 1.5; font-weight: 500; text-decoration: none; color: #2E2F42; padding: 24px 0 }
 .navigation-link:hover {color: #404BBF; }
 .navigation-link:active {color: #404bbf; }
 .navigation-link:focus {color: #404bbf; }
