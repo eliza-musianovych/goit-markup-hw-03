@@ -9,7 +9,7 @@ ul, ol {margin: 0; padding-left: 0; }
 .header {border-bottom: 1px solid #e7e9fc; }
 .container {width: 1158px; padding: 0 15px; margin: 0 auto; }
 .container.header-container {display: flex; gap: 332px; }
-.navigation {display: flex; }
+.navigation {display: flex; align-items: center; }
 .navigation-list {display: flex; align-items: center; gap:40px; } 
 .logo {font-family: "Raleway", sans-serif; line-height: 1.17; letter-spacing: 0.03em; font-size: 18px; font-weight: 700; text-decoration: none; color: #4D5AE5;; text-transform: uppercase; margin-right: 76px; padding-top: 24px; padding-bottom: 24px; }
 .snap-logo-header {color: #2e2f42 }
